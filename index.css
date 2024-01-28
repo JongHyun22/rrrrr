@@ -1,0 +1,59 @@
+@charset "utf-8";
+
+/* 폰트들
+    나눔명조
+    font-family: 'Nanum Myeongjo', serif;
+    노토산스
+    font-family: 'Noto Sans KR', sans-serif;
+
+    EB garamond
+    font-family: 'EB Garamond', serif;
+
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    /*부모에게 글씨색상을 상속받은 값을 사용해라. 다른태그안의 글씨와 색상변경하는방법이 같아진다.*/
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+img,
+video,
+iframe {
+    vertical-align: middle;
+}
+
+body {
+    font-family: 'Noto Sans KR', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #666;
+}
+
+/*header*/
+#header {
+    width: 1320px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+}   
+
+#gnb {
+    display: flex;
+    font-size: 18px;
+}
+
+#gnb li {
+    padding: 25px 20px;
+}
